@@ -1,0 +1,16 @@
+{
+  "name": "aeb_nxt_task",
+  "version": "1.0.0",
+  "description": "server receives a json and returns the json or throws error if fields are missing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nicolai Kopka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
